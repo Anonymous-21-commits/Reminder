@@ -4,7 +4,7 @@ const sender=nodemailer.createTransport({
     service:'Gmail',
     auth:{
         user:EMAIL_ID,
-        password:PASSWORD
+        pass:PASSWORD
     }
 
 });
